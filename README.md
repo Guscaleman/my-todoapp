@@ -16,6 +16,7 @@ Bem vindo(a) ao meu MyTodoApp! Uma aplicação web desenvolvida exclusivamente p
 -  Use este repositório para testar e avaliar o frontend desta aplicação.
 -  Na raiz da pasta frontend, abra o terminal e execute:
 > npm install (para instalar todas as dependências)
+
 > npm run start (para rodar a aplicação no seu navegador)
 
 -  Entre neste repositório para testar e avaliar o backend desta aplicação -> https://github.com/Guscaleman/todo-api
