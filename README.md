@@ -1,6 +1,6 @@
 # JackExperts Code Challenge
 
-Bem vindo(a) ao meu MyTodoApp! Uma aplicação web fullstack desenvolvida exclusivamente para o desafio da Jack Experts.
+Bem vindo(a) ao MyTodoApp! Uma aplicação web fullstack desenvolvida exclusivamente para o desafio da Jack Experts.
 
 ## Preparando seu ambiente 
 
