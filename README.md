@@ -43,3 +43,8 @@ Também vale destacar que no frontend foram utilizados somente 7 dos 11 endpoint
 Decidi também subir o arquivo docker-compose no repositório para mostrar que houve uma tentativa de deploy dos containers criados no Docker.
 Por fim, decidi fazer o deploy somente da API, utilizando o Railway, para que a aplicação ficasse o mais rápida possível em termos de tempo de resposta das requisições.
 
+## Agradecimentos
+
+Agradeço por essa oportunidade de me juntar ao time da JackExperts, pois aprendi muitos conceitos novos no decorrer deste desafio. Sendo assim fico no aguardo do seu feedback da minha aplicação.
+
+Abraços! 
