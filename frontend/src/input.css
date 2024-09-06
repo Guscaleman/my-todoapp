@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply bg-gray-4;
+}
+
+.input-default {
+	@apply rounded border text-gray-1 text-title2-size font-headline-regular border-gray-2 bg-gray-2 px-2 py-1.5 w-270px;
+}
+
+.headline {
+	@apply text-white text-headline-size font-headline-regular;
+}
+
+.headline-bold {
+	@apply text-gray-1 text-headline-size font-headline-bold;
+}
+
+.paragraph {
+	@apply text-white text-center text-paragraph-size font-paragraph-weight;
+}
+
+h1 {
+	@apply text-gray-0 text-title1-size font-title-weight text-center;
+}
+
+h2,
+a {
+	@apply text-gray-0 text-title2-size font-title-weight;
+}
+
+label {
+	@apply w-100p text-left pl-6;
+}
+
+form {
+	@apply flex flex-col justify-center items-center gap-6 mb-6 h-auto w-320px;
+}
+
+.form-container {
+	@apply flex flex-col items-center justify-center h-screen gap-8;
+}
+
+.form-content {
+	@apply rounded bg-gray-3 shadow-2xl;
+}
+
+.btn-register {
+	@apply rounded py-3 text-center border w-84.5p text-white border-gray-1 bg-gray-1 font-headline-bold text-title2-size;
+}
+
+.btn-primary {
+	@apply rounded py-3 border text-white w-84.5p font-headline-bold text-title2-size border-color-primary bg-color-primary;
+}
+
+.btn-secondary {
+	@apply rounded border py-3 text-white border-color-primary-negative bg-color-primary-negative w-84.5p;
+}
+
+.error-msg {
+	@apply text-color-negative text-center text-headline-size;
+}
+
+.finished-msg {
+	@apply text-color-success text-headline-size font-headline-bold;
+}
+
+.unfinished-msg {
+	@apply text-color-negative text-headline-size font-headline-bold;
+}
+
+.reg-message {
+	@apply text-gray-1 text-center my-8 text-headline-size;
+}
+
+.reg-back {
+	@apply rounded text-gray-0 bg-gray-3 text-headline-size p-3;
+}
+
+.reg-header {
+	@apply flex w-320px justify-between;
+}
+
+.password-content {
+	@apply relative;
+}
+
+.button-eye {
+	@apply absolute right-4 top-2 bg-transparent border-none;
+}
+
+.modal-container {
+	@apply bg-black-alpha h-screen w-full fixed top-0 left-0 flex justify-center items-center;
+}
+
+.modal-header {
+	@apply flex justify-between p-5 w-96 bg-gray-2 mb-4;
+}
+
+.modal-content {
+	@apply bg-gray-3 w-full max-w-sm max-h-80vh rounded shadow-custom;
+}
+
+.modal-form {
+	@apply w-full;
+}
+
+.main-dashboard {
+	@apply flex flex-col;
+}
+
+.dash-header {
+	@apply flex py-8 justify-around border-bottom-custom gap-40;
+}
+
+.dash-banner {
+	@apply flex items-center py-12 justify-around border-bottom-custom;
+}
+
+.dash-content {
+	@apply flex items-center py-8 justify-around gap-52;
+}
+
+.card-container {
+	@apply flex items-center justify-between py-3 px-5;
+}
+
+.card-content {
+	@apply flex flex-row items-center gap-3;
+}
+
+.card-buttons {
+	@apply flex gap-2;
+}
+
+.list-container {
+	@apply flex flex-col gap-8 bg-gray-3 p-4 rounded w-70p m-auto mt-2.5;
+}
+
+.list-content {
+	@apply rounded bg-gray-4;
+}
+
+@media (max-width: 425px) {
+	form,
+	.modal-form,
+	.modal-header {
+		width: 100%;
+	}
+	.form-content,
+	.modal-content {
+		width: 90%;
+	}
+	.input-default,
+	.btn-primary,
+	.btn-register,
+	.btn-secondary {
+		width: 80vw;
+	}
+	.reg-header {
+		justify-content: space-around;
+	}
+	.button-eye {
+		right: 1rem;
+	}
+	.dash-header {
+		gap: 5rem;
+	}
+	.dash-banner {
+		flex-direction: column;
+		gap: 1rem;
+	}
+	.dash-content {
+		gap: 7.5rem;
+	}
+}
+
+@media (max-width: 600px) {
+	.card-container {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 1rem;
+	}
+	.card-content {
+		width: 100%;
+		justify-content: space-between;
+	}
+	.list-container {
+		width: 83%;
+	}
+}

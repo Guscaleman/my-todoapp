@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+  backend:
+    image: my-todo-app
+    ports:
+      - 3000:3000
+    environment:
+      - DATABASE_URL=mysql://root:123456@mysql:3306/user_task_db_dev
+      - HOST=0.0.0.0
+    depends_on:
+      - mysql
+
+  frontend:
+    image: my-todo-frontend
+    ports:
+      - 5000:80
+    depends_on:
+      - backend
+
+  mysql:
+    image: mysql:8.0.39
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: user_task_db_dev
+    volumes:
+      - mysql_data:/var/lib/mysql
+    restart: always
+
+volumes:
+  mysql_data:
