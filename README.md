@@ -13,21 +13,15 @@ Bem vindo(a) ao meu MyTodoApp! Uma aplicação web desenvolvida exclusivamente p
 
 ### Repository setup & process
 
--  Use this git repository as your starting point.
--  Once completed, remember to push your changes.
--  Submit this challenge via a GitHub Classroom assignment (read more below).
+-  Use este repositório para testar e avaliar o frontend desta aplicação.
+-  Na raiz da pasta frontend, abra o terminal e execute:
+> npm install (para instalar todas as dependências)
+> npm run start (para rodar a aplicação no seu navegador)
 
-### How to install dependencies
-
-```bash
-meteor npm install
-```
-
-### How to run
-
-```bash
-meteor npm start
-```
+-  Entre neste repositório para testar e avaliar o backend desta aplicação -> https://github.com/Guscaleman/todo-api
+-  Na raiz da pasta backend, abra o terminal e execute:
+> npm install (para instalar todas as dependências)
+> npm run test (para rodar o teste de integração)
 
 ## What you need to deliver
 
