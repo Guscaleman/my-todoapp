@@ -1,10 +1,10 @@
-# Jackexperts Code Challenge
+# JackExperts Code Challenge
 
-Bem vindo(a) ao meu MyTodoApp! Uma aplicação web desenvolvida exclusivamente para o desafio da Jack Experts.
+Bem vindo(a) ao meu MyTodoApp! Uma aplicação web fullstack desenvolvida exclusivamente para o desafio da Jack Experts.
 
 ## Preparando seu ambiente 
 
-- [Install Node.js](https://nodejs.org/en/download/)
+- [Instale o Node.js](https://nodejs.org/en/download/)
   - Rode [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) para instalar o Node.js caso ainda não tenha instalado.
 
 > Este projeto utiliza Node.js + Express + Prisma + MySQL no backend e Vite + React no frontend!
