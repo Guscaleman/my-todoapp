@@ -42,12 +42,17 @@ Enquanto seu token existir, o usuário será logado automaticamente e direcionad
 ## Decisões tomadas durante o desenvolvimento
 
 O backend foi desenvolvido antes do frontend ser feito.
+
 O Tailwindcss foi escolhido como biblioteca de estilização por suas ferramentas modernas e possibilidade de organizar melhor o código.
+
 O Zod foi escolhido pois é uma biblioteca que permite criar esquemas e "monitorar" o preenchimento dos dados dos formulários.
+
 O React Context foi escolhido pois centraliza todas as requisições do frontend com a API de forma a evitar o "prop drilling".
+
 Também vale destacar que no frontend foram utilizados somente 7 dos 11 endpoints criados no backend.
 
 Decidi também subir o arquivo docker-compose no repositório para mostrar que houve uma tentativa de deploy dos containers criados no Docker utilizando kubernetes e AWS, porém sem sucesso.
+
 Por fim, decidi fazer o deploy somente da API, utilizando o Railway, para que a aplicação ficasse o mais rápida possível em termos de tempo de resposta das requisições.
 
 ## Agradecimentos
