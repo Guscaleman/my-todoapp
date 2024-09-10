@@ -51,7 +51,7 @@ O backend foi desenvolvido antes do frontend ser feito.
 
 O Tailwindcss foi escolhido como biblioteca de estilização por suas ferramentas modernas e possibilidade de organizar melhor o código.
 
-O Zod foi escolhido pois é uma biblioteca que permite criar esquemas e "monitorar" o preenchimento dos dados dos formulários.
+O Zod foi escolhido pois é uma biblioteca que permite criar esquemas de validação no backend e "monitorar" o preenchimento dos dados dos formulários no frontend.
 
 O React Context foi escolhido pois centraliza todas as requisições do frontend com a API de forma a evitar o "prop drilling".
 
