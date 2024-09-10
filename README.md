@@ -17,7 +17,7 @@ Com a intenção de facilitar a avaliação, os testes e garantir o deploy da mi
 
 -  Use este mesmo repositório para testar e avaliar o frontend desta aplicação.
 -  Note que o Axios já está consumindo a API hospedada no Railway.
--  Na raiz da pasta frontend, abra o terminal siga os passos:
+-  Na raiz deste repositório, abra o terminal siga os passos:
 
 Instale todas as dependências:
 ```
