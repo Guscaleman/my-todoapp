@@ -38,9 +38,9 @@ Instale todas as dependências:
 npm install
 ```
 
-Crie um banco de dados MySQL na sua máquina e aponte o mesmo no DATABASE_URL, então faça a migração:
+Crie um banco de dados MySQL na sua máquina e aponte o mesmo no DATABASE_URL em um arquivo .env.test, então faça a migração:
 ```
-npx prisma migrate dev
+npm run migrate:test
 ```
 
 Rode os testes de integração:
