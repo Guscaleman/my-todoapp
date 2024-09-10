@@ -41,7 +41,7 @@ O roteamento foi feito de forma que não é possível acessar o DashboardPage a 
 
 Uma vez que o cadastro e o login são feitos, o usuário passa a ter um token que o autoriza a listar, criar, editar e deletar suas tarefas.
 
-> (Experimente apagar o token do localStorage do seu navegador enquanto estiver no dashboard 👀)
+> (Experimente apagar ou alterar o token do localStorage do seu navegador enquanto estiver no dashboard 👀)
 
 Enquanto seu token existir, o usuário será logado automaticamente e direcionado ao seu dashboard, sendo necessário deslogar caso queira voltar nas outras páginas. 
 
