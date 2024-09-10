@@ -11,7 +11,7 @@ Bem vindo(a) ao MyTodoApp! Uma aplicação web fullstack desenvolvida exclusivam
 
 # Preparando os testes
 
-Com a intenção de facilitar a avaliação, os testes e garantir o deploy da minha API, decidi separar da seguinte forma:
+Com a intenção de facilitar a avaliação, os testes e garantir o deploy da minha API, decidi separar as responsabilidades da seguinte forma:
 
 ## Testando o frontend
 
