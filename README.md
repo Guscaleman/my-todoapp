@@ -40,7 +40,7 @@ npm install
 
 Crie um banco de dados MySQL na sua máquina e aponte o mesmo no DATABASE_URL, então faça a migração:
 ```
-npx prisma migrate
+npx prisma migrate dev
 ```
 
 Rode os testes de integração:
