@@ -76,7 +76,7 @@ O backend foi desenvolvido antes do frontend ser feito.
 
 O Prisma foi escolhido para conectar com o banco de dados pois proporciona integração com o TypeScript e abstrai complexidades de interagir diretamente com instruções e query SQL.
 
-A biblioteca dotenv foi escolhida pois permite separar os ambientes de teste, desenvolvimento e produção, tornando toda a aplicação mais flexível e facilitando a gestão das variáveis de ambiente.
+A biblioteca dotenv foi escolhida pois permite separar os ambientes de teste, desenvolvimento e produção, tornando toda a aplicação mais flexível e facilitando a gestão das variáveis de ambiente nos scripts do package.json.
 
 O Tailwindcss foi escolhido como biblioteca de estilização por suas ferramentas modernas e possibilidade de organizar melhor o código.
 
