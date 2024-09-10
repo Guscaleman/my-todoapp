@@ -53,7 +53,7 @@ O Tailwindcss foi escolhido como biblioteca de estilização por suas ferramenta
 
 O Zod foi escolhido pois é uma biblioteca que permite criar esquemas de validação no backend e "monitorar" o preenchimento dos dados dos formulários no frontend.
 
-O React Context foi escolhido pois centraliza todas as requisições do frontend com a API de forma a evitar o "prop drilling".
+O React Context foi escolhido pois centraliza todas as requisições do frontend com a API de acordo com o contexto, evitando assim o temido "prop drilling".
 
 Também vale destacar que no frontend foram utilizados somente 7 dos 11 endpoints criados no backend.
 
