@@ -62,7 +62,7 @@ Uma vez que o cadastro e o login são feitos, o usuário passa a ter um token qu
 
 Enquanto seu token existir, o usuário será logado automaticamente e direcionado ao seu dashboard, sendo necessário deslogar caso queira voltar nas outras páginas. 
 
-> (Experimente acessar "/" ou "/register" enquanto estiver no Dashboard 👀)
+> (Experimente acessar "/" ou "/register" enquanto estiver no dashboard 👀)
 
 # Decisões tomadas durante o desenvolvimento
 
