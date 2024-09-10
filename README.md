@@ -25,11 +25,18 @@ Com a intenção de facilitar a avaliação, os testes e garantir o deploy da mi
 
 -  Entre neste repositório para testar e avaliar o backend (TodoAPI) desta aplicação -> https://github.com/Guscaleman/todo-api
 -  Na raiz da pasta backend, abra o terminal e execute:
-> npm install (para instalar todas as dependências)
+  
+```
+npm install (para instalar todas as dependências)
+```
 
-> npx prisma migrate (crie um banco de dados mysql na sua máquina e aponte o mesmo no DATABASE_URL antes de fazer a migração)
+```
+npx prisma migrate (crie um banco de dados mysql na sua máquina e aponte o mesmo no DATABASE_URL antes de fazer a migração)
+```
 
-> npm run test (para rodar os testes de integração)
+```
+npm run test (para rodar os testes de integração)
+```
 
 # Apresentação da aplicação
 
