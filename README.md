@@ -33,11 +33,15 @@ Bem vindo(a) ao MyTodoApp! Uma aplicação web fullstack desenvolvida exclusivam
 
 O MyTodoApp é composta por uma Single Page Application que consome a TodoAPI utilizando o Axios. Graças ao React foi possível criar 3 rotas na aplicação, são elas: LoginPage, RegisterPage e DashboardPage.
 
-O roteamento foi feito de forma que não é possível acessar o DashboardPage a não ser que o login seja feito, que por sua vez necessita que o cadastramento seja realizado. (Experimente acessar /dashboard na url do seu navegador enquanto estiver no login ou cadastro 👀)
+O roteamento foi feito de forma que não é possível acessar o DashboardPage a não ser que o login seja feito, que por sua vez necessita que o cadastramento seja realizado. 
+
+> (Experimente acessar /dashboard na url do seu navegador enquanto estiver no login ou cadastro 👀)
 
 Uma vez que o cadastro e o login são feitos, o usuário passa a ter um token que o autoriza a listar, criar, editar e deletar suas tarefas.
 
-Enquanto seu token existir, o usuário será logado automaticamente e direcionado ao seu dashboard, sendo necessário deslogar caso queira voltar nas outras páginas. (Experimente de apagar o token do localStorage do seu navegador enquanto estiver no dashboard 👀)
+Enquanto seu token existir, o usuário será logado automaticamente e direcionado ao seu dashboard, sendo necessário deslogar caso queira voltar nas outras páginas. 
+
+> (Experimente de apagar o token do localStorage do seu navegador enquanto estiver no dashboard 👀)
 
 ## Decisões tomadas durante o desenvolvimento
 
