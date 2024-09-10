@@ -38,7 +38,11 @@ Instale todas as dependências:
 npm install
 ```
 Como estamos em um ambiente de teste, crie um .env.test de acordo com o .env.example e preencha o JWT_SECRET com uma string aleatória.
-Crie um banco de dados MySQL na sua máquina e aponte o mesmo no DATABASE_URL do .env.test, então faça a migração:
+Crie um banco de dados MySQL na sua máquina e aponte o mesmo no DATABASE_URL do .env.test, seguindo o seguinte padrão:
+
+> DATABASE_URL="mysql://[usuário]:[senha]@localhost:3306/[nome_do_banco_de_dados]"
+
+Então faça a migração:
 ```
 npm run migrate:test
 ```
