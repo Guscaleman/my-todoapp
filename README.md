@@ -29,7 +29,7 @@ Bem vindo(a) ao MyTodoApp! Uma aplicação web fullstack desenvolvida exclusivam
 
 > npm run test (para rodar os testes de integração)
 
-## Apresentação da aplicação
+# Apresentação da aplicação
 
 O MyTodoApp é composta por uma Single Page Application que consome a TodoAPI utilizando o Axios. Graças ao React foi possível criar 3 rotas na aplicação, são elas: LoginPage, RegisterPage e DashboardPage.
 
@@ -45,7 +45,7 @@ Enquanto seu token existir, o usuário será logado automaticamente e direcionad
 
 > (Experimente acessar "/" ou "/register" enquanto estiver no Dashboard 👀)
 
-## Decisões tomadas durante o desenvolvimento
+# Decisões tomadas durante o desenvolvimento
 
 O backend foi desenvolvido antes do frontend ser feito.
 
@@ -61,7 +61,7 @@ Decidi também subir o arquivo docker-compose no repositório para mostrar que h
 
 Por fim, decidi fazer o deploy somente da API, utilizando o Railway, para que a aplicação ficasse o mais rápida possível em termos de tempo de resposta das requisições.
 
-## Agradecimentos
+# Considerações finais
 
 Agradeço por essa oportunidade de me juntar ao time da JackExperts, pois aprendi muitos conceitos novos no decorrer deste desafio. Sendo assim fico no aguardo do seu feedback da minha aplicação.
 
