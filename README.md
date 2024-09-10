@@ -11,7 +11,7 @@ Bem vindo(a) ao MyTodoApp! Uma aplicação web fullstack desenvolvida exclusivam
 
 ## Preparando os testes
 
-#Testando o frontend
+# Testando o frontend
 
 -  Use este repositório para testar e avaliar o frontend desta aplicação.
 -  Na raiz da pasta frontend, abra o terminal e execute:
