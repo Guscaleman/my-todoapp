@@ -16,7 +16,7 @@ Com a intenção de facilitar a avaliação, os testes e garantir o deploy da mi
 ## Testando o frontend
 
 -  Use este mesmo repositório para testar e avaliar o frontend desta aplicação.
--  Na raiz da pasta frontend, abra o terminal e execute:
+-  Na raiz da pasta frontend, abra o terminal siga os passos:
 
 Instale todas as dependências:
 ```
@@ -31,7 +31,7 @@ npm run start
 ## Testando o backend
 
 -  Entre neste repositório para testar e avaliar o backend (TodoAPI) desta aplicação -> https://github.com/Guscaleman/todo-api
--  Na raiz da pasta backend, abra o terminal e execute:
+-  Na raiz da pasta backend, abra o terminal e siga os passos:
 
 Instale todas as dependências:
 ```
