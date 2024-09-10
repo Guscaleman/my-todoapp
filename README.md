@@ -68,7 +68,7 @@ Enquanto seu token existir, o usuário será logado automaticamente e direcionad
 
 O backend foi desenvolvido antes do frontend ser feito.
 
-O Prisma foi escolhido para conectar com o banco de dados pois proporciona integração com o TypeScript e abstrai complexidades de interagir diretamente com SQL.
+O Prisma foi escolhido para conectar com o banco de dados pois proporciona integração com o TypeScript e abstrai complexidades de interagir diretamente com instruções e query SQL.
 
 O Tailwindcss foi escolhido como biblioteca de estilização por suas ferramentas modernas e possibilidade de organizar melhor o código.
 
