@@ -2,7 +2,7 @@
 
 Bem vindo(a) ao MyTodoApp! Uma aplicação web fullstack desenvolvida exclusivamente para o desafio da Jack Experts.
 
-## Preparando seu ambiente 
+# Preparando seu ambiente 
 
 - [Instale o Node.js](https://nodejs.org/en/download/)
   - Rode [nvm](https://github.com/nvm-sh/nvm#installing-and-updating) para instalar o Node.js caso ainda não tenha instalado.
