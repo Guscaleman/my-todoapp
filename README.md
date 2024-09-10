@@ -17,7 +17,7 @@ Com a intenção de facilitar a avaliação, os testes e garantir o deploy da mi
 
 -  Use este mesmo repositório para testar e avaliar o frontend desta aplicação.
 -  Note que o Axios já está consumindo a API hospedada no Railway.
--  Na raiz deste repositório, abra o terminal siga os passos:
+-  Na raiz da pasta frontend, abra o terminal siga os passos:
 
 Instale todas as dependências:
 ```
@@ -32,7 +32,7 @@ npm run start
 ## Testando o backend
 
 -  Entre neste repositório para testar e avaliar o backend (TodoAPI) desta aplicação -> https://github.com/Guscaleman/todo-api
--  Na raiz da pasta backend, abra o terminal e siga os passos:
+-  Na raiz do repositório TodoAPI, abra o terminal e siga os passos:
 
 Instale todas as dependências:
 ```
