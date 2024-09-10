@@ -37,8 +37,8 @@ Instale todas as dependências:
 ```
 npm install
 ```
-
-Crie um banco de dados MySQL na sua máquina e aponte o mesmo no DATABASE_URL em um arquivo .env.test, então faça a migração:
+Siga o modelo do .env.example para criar um .env.test preenchendo essas variáveis de ambiente.
+Crie um banco de dados MySQL na sua máquina e aponte o mesmo no DATABASE_URL do .env.test, então faça a migração:
 ```
 npm run migrate:test
 ```
