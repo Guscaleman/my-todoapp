@@ -52,6 +52,8 @@ Após a migração bem sucedida, rode os testes de integração:
 npm run test
 ```
 
+Seu terminal deve mostrar os 47 testes bem sucedidos.
+
 # Apresentação da aplicação
 
 O MyTodoApp é composta por uma Single Page Application que consome a TodoAPI utilizando o Axios. Graças ao React foi possível criar 3 rotas na aplicação, são elas: LoginPage, RegisterPage e DashboardPage.
