@@ -18,12 +18,12 @@ Com a intenção de facilitar a avaliação, os testes e garantir o deploy da mi
 -  Use este mesmo repositório para testar e avaliar o frontend desta aplicação.
 -  Na raiz da pasta frontend, abra o terminal e execute:
 
-(Instale todas as dependências)
+Instale todas as dependências:
 ```
 npm install
 ```
 
-(Rode a aplicação no seu navegador)
+Rode a aplicação no seu navegador:
 ```
 npm run start
 ```
