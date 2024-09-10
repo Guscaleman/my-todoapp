@@ -43,7 +43,7 @@ Crie um banco de dados MySQL na sua máquina e aponte o mesmo no DATABASE_URL em
 npm run migrate:test
 ```
 
-Rode os testes de integração:
+Se a migração for bem sucedida, rode os testes de integração:
 ```
 npm run test
 ```
